@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../ProfileTree.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import About from \"../components/sections/About.svelte\";\n  import DevStack from \"../components/sections/DevStack.svelte\";\n  import Projects from \"../components/sections/Projects.svelte\";\n  import AlmaMatter from \"../components/sections/AlmaMatter.svelte\";\n  import Technology from \"../components/sections/Technology.svelte\";\n  import Achievments from \"../components/sections/Achievments.svelte\";\n  import Interests from \"../components/sections/Interests.svelte\";\n  import { fly } from \"svelte/transition\";\n</script>\n\n<style>\n  @media only screen and (max-width: 600px) {\n    .alma {\n      padding-left: 1.5rem;\n      padding-right: 0px;\n      margin-left: 1rem;\n      margin-right: 0.5rem;\n    }\n  }\n</style>\n\n<div\n  class=\"pl-10 pr-10 mr-10 ml-10 text-white alma\"\n  style=\" border-left: 5px solid #a0aec0; position: relative \">\n  <About />\n  <AlmaMatter />\n  <Projects />\n  <DevStack />\n  <Technology />\n  <Achievments />\n  <Interests />\n</div>\n"
+  ],
+  "names": [],
+  "mappings": "AAYE,OAAO,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACzC,KAAK,cAAC,CAAC,AACL,YAAY,CAAE,MAAM,CACpB,aAAa,CAAE,GAAG,CAClB,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,MAAM,AACtB,CAAC,AACH,CAAC"
+}
